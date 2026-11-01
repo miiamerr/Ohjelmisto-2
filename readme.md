@@ -9,7 +9,7 @@
 
 ### JS modules 1 and 2
 
-[My link to js 1&2 folder at: ]
+[My link to js 1&2 folder at: https://users.metropolia.fi/~miiamerr/js-1/]
 
 Completed assigments:
 
