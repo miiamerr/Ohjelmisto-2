@@ -20,3 +20,17 @@ Completed assigments:
 - Task 2.1: 2p
 
 **Total 11p**
+
+### JS module 3
+
+[My link to js3 folder at: https://users.metropolia.fi/~miiamerr/js-3/]
+
+Completed assignments:
+
+- Task 1: 2p
+- Task 2: 2p
+- Task 3: 2p
+- Task 4: 2p
+- Task 5: 2p
+
+**Total 10p**
