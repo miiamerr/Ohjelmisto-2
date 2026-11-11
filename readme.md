@@ -34,3 +34,15 @@ Completed assignments:
 - Task 5: 2p
 
 **Total 10p**
+
+### JS module 4
+
+[My link yo js4 folder at: ]
+
+- Task 1: 2p
+- Task 2: 2p
+- Task 3: 2p
+- Task 5: 5p
+- Task 9: 1p
+
+**Total 12p**
