@@ -37,7 +37,7 @@ Completed assignments:
 
 ### JS module 4
 
-[My link yo js4 folder at: ]
+[My link yo js4 folder at: https://users.metropolia.fi/~miiamerr/js-4/]
 
 - Task 1: 2p
 - Task 2: 2p
