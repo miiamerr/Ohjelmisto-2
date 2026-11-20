@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tv Show Search</title>
+</head>
+<body>
+      <h1>TV Show Search</h1>
+
+    <form id="searchForm">
+        <input id="query" name="q" type="text" placeholder="Enter TV show name">
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        async function searchTVshows() {
+
+            const value = document.getElementById("query").value;
+
+            const response = await fetch(
+                `https://api.tvmaze.com/search/shows?q=${encodeURIComponent(value)}`
+            );
+
+            const data = await response.json();
+
+            console.log(data);
+
+            document.getElementById("results").innerHTML = "";
+
+            for (const result of data) {
+
+                const tvShow = result.show;
+
+                const article = document.createElement("article");
+
+                const name = document.createElement("h2");
+                name.textContent = tvShow.name;
+
+                const link = document.createElement("a");
+                link.href = tvShow.url;
+                link.textContent = "View details";
+                link.target = "_blank";
+
+                const image = document.createElement("img");
+                image.src = tvShow.image?.medium || "";
+                image.alt = tvShow.name;
+
+                const summary = document.createElement("div");
+                summary.innerHTML = tvShow.summary || "";
+
+                article.appendChild(name);
+                article.appendChild(link);
+                article.appendChild(image);
+                article.appendChild(summary);
+
+                document.getElementById("results").appendChild(article);
+            }
+        }
+
+        document.getElementById("searchForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            searchTVshows();
+
+        });
+    </script>
+</body>
+</html>
+
+

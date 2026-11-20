@@ -49,8 +49,18 @@ Completed assignments:
 
 ### Python Flask server ###
 
-[My link to Python Flask server at :]
+[My link to Python Flask server at : https://users.metropolia.fi/~miiamerr/python-flask-server/]
 
 - Task 2: 10p
 
 **Total 10p**
+
+### JS module 5 
+
+[My link to js-5  folder at: https://users.metropolia.fi/~miiamerr/js-5/]
+
+- Task 1: 2p
+- Task 2: 3p
+- Task 3: 7p
+
+**Total 12p**
